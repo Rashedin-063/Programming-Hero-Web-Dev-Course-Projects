@@ -1,0 +1,263 @@
+
+/* common shared style */
+body{
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+}
+/* nav related style */
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+.nav-title{
+  color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+.text-primary{
+color: #FD6E0A;
+}
+.list{
+  display: flex;
+  align-items: center;
+  }
+nav a{
+  text-decoration: none;
+  color: #474747;
+}
+
+.item{
+  list-style: none;
+  margin-right: 50px; 
+  
+}
+
+.btn-primary{
+  border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+font-size: 18px;
+font-weight: 700;
+color: white;
+padding: 5px 5px;
+width: 200px;
+height: 50px;
+}
+/* header related style */
+.header{
+background-color: #FFF8f3;
+background-image: url('../images/header_bg.png'), url('../images/developer.png');
+background-repeat: no-repeat;
+background-position: bottom right, center left;
+
+}
+.btn-2{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+font-size: 18px;
+font-weight: 700;
+color: white;
+padding: 5px 5px;
+}
+.banner-container{
+padding: 30px 30px 0px 150px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.btn-3{
+  width: 160px;
+  height: 50px;
+  align-items: first baseline;
+  border-radius: 5px;
+border: 1px solid #FD6E0A;
+padding: 5px 5px; ;
+color: #FD6E0A;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+.banner-img{width: 500px;}
+      /* padding-right: 20px;} */
+/* height: 70px;} */
+.banner-content{
+ max-width: 500px; 
+ justify-content: space-between;
+ margin-bottom: 70px;
+}
+.banner-greetings{
+  color: var(--dark-02, #474747);
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.banner-title{
+  color: var(--dark-01, #181818);
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.banner-description{
+  color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+margin-top: 0;
+}
+/* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section{
+  margin-top: 130px;
+}
+/* about section styles */
+.about{
+  padding: 130px;
+  border: 1px solid #000;
+  background: #FFF8f3;
+  margin: 130px 0;
+  
+}
+.section-title{
+  color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+  color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+  }
+.info-title{
+  color: #757575
+}
+.info-description{color: #474747;
+  font-size: 20px;
+  font-weight: 600;}
+  #what-i-do-descrption{
+    padding: 30px 150px;
+  }
+  /* what i do section styles */
+
+  .skills-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  .skill{
+    width: 200px;
+    height: 277px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    
+  }
+  .skill-img{
+    width: 44px;
+    height: 44px;
+    /* padding: 30px 190px 0px 30px; */
+
+  }
+  .skill-title{
+    /* padding: 5px 140px 10px 30px; */
+    color: #181818);
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .skill-description{
+    /* padding: 0px 33px 30px; */
+    color: #757575);
+font-size: 16px;
+font-weight: 400;
+  }
+  /* resume-section-styles */
+  .resume-column-title{
+    color: #474747);
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .resume-container{
+    display: flex;
+    gap: 75px;
+  }
+  .resume-item{
+background: #FFF;
+  }
+ .resume-item-title{
+  color:  #474747;
+font-size: 30px;
+font-weight: 700;}
+.resume-item-institute{
+  color:  #474747;
+  font-size: 25px;
+  font-weight: 700; 
+}
+.resume-item-description{
+  color: #757575);
+  font-size: 20px;
+  font-weight: 500;
+}
+.cv-btn{
+  text-align: center;
+}
+.download-cv{
+  width: 200px;
+height: 64px;
+font-size: 20px;
+font-weight: 700;
+margin-top: 50px;
+
+}
+/* footer section styles */
+footer{
+  display: flex;
+  background: #FFF8F3;
+  padding: 130px 230px;
+  gap: 100px;
+  margin-top: 130px;
+}
+.footer-icon {
+  padding-top: 30px;}
+  .footer-icon a{
+padding-right: 24px;
+  }
+
+.footer-column{
+  width: 50%;
+}
+#footer-form input[type="text"],#footer-form input[type="email"]
+,textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  color: #757575;
+font-size: 16px;
+font-weight: 400;
+border: 0;
+border-radius: 5px;
+background: #FFF;
+width: 100%;
+}
+#
+
+ 
