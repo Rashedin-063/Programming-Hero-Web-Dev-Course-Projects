@@ -1,0 +1,39 @@
+.country-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 3px solid rgb(69, 1, 69);
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: rgb(99, 3, 95);
+  gap: 10px
+}
+.country{
+  border: 2px solid rebeccapurple;
+ background-color: rgb(71, 4, 71);
+ border-radius: 1rem;
+ margin: 5px;
+ padding: 5px;
+ box-shadow: 3px 1px 3px 1px rgb(41, 41, 65);
+}
+.visited{
+  border: 2px solid rebeccapurple;
+ background-color: rgb(62, 1, 58);
+ border-radius: 1rem;
+ margin: 5px;
+ padding: 5px;
+ box-shadow: 3px 3px 3px 3px rgb(43, 1, 46);
+ font-weight: 700;
+ transform: scale(1.01);
+ transition: all 0.3s ease;
+}
+
+.flag-container img{
+  width: 50px;
+  margin-right: 5px ;
+}
+
+@media (max-width:600px) {
+  .country-container{
+    grid-template-columns: 1fr;
+  }
+}
