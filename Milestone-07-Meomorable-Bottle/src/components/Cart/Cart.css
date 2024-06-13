@@ -1,0 +1,13 @@
+
+/* .cart-container{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+} */
+.cart-container img{
+  width: 60px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
