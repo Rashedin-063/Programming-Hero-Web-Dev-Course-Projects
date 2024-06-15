@@ -1,0 +1,111 @@
+[
+  {
+    "recipe_img": "https://i.ibb.co/YDg8Zc6/01-chicketn-salad.jpg",
+    "recipe_id": "001",
+    "recipe_name": "Grilled Chicken Salad",
+    "short_description": "A healthy and delicious grilled chicken salad with fresh greens.",
+    "ingredients": [
+      "550 g chicken breast",
+      "120 g mixed greens",
+      "100 g cherry tomatoes",
+      "50 g cucumber",
+      "30 g red onion",
+      "20 g feta cheese",
+      "10 ml olive oil",
+      "5 ml lemon juice"
+    ],
+    "preparation_time": 25,
+    "calories": 350
+  },
+  {
+    "recipe_img": "https://i.ibb.co/bBTFx3y/02-dhfdfh.jpg",
+    "recipe_id": "002",
+    "recipe_name": "Basil Pesto Pasta",
+    "short_description": "Classic pasta dish with homemade basil pesto and parmesan.",
+    "ingredients": [
+      "400 g pasta",
+      "120 g basil leaves",
+      "50 g parmesan cheese",
+      "40 g pine nuts",
+      "2 cloves garlic",
+      "100 ml olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "preparation_time": 30,
+    "calories": 450
+  },
+  {
+    "recipe_img": "https://images.unsplash.com/photo-1473093226795-af9932fe5856",
+    "recipe_id": "003",
+    "recipe_name": "Vegetarian Mushroom Risotto",
+    "short_description": "Creamy risotto with mushrooms and parmesan cheese.",
+    "ingredients": [
+      "400 g arborio rice",
+      "200 g mushrooms",
+      "1 onion",
+      "2 cloves garlic",
+      "50 g parmesan cheese",
+      "100 ml white wine",
+      "700 ml vegetable stock",
+      "Salt",
+      "Pepper"
+    ],
+    "preparation_time": 45,
+    "calories": 400
+  },
+  {
+    "recipe_img": "https://i.ibb.co/2nGKLHd/04-data.jpg",
+    "recipe_id": "004",
+    "recipe_name": "Spicy Beef Tacos",
+    "short_description": "Flavorful and spicy beef tacos with fresh toppings.",
+    "ingredients": [
+      "500 g ground beef",
+      "8 taco shells",
+      "100 g lettuce",
+      "50 g cheddar cheese",
+      "2 tomatoes",
+      "1 onion",
+      "2 tbsp taco seasoning",
+      "Sour cream",
+      "Salsa"
+    ],
+    "preparation_time": 20,
+    "calories": 500
+  },
+  {
+    "recipe_img": "https://i.ibb.co/4WqxS0p/5Data.jpg",
+    "recipe_id": "005",
+    "recipe_name": "Avocado Toast",
+    "short_description": "Simple and nutritious avocado toast with a touch of lemon.",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 avocado",
+      "1 lemon",
+      "10 g cherry tomatoes",
+      "Salt",
+      "Pepper",
+      "Olive oil"
+    ],
+    "preparation_time": 10,
+    "calories": 250
+  },
+  {
+    "recipe_img": "https://i.ibb.co/yPxc6ky/6Data.jpg",
+    "recipe_id": "006",
+    "recipe_name": "Chocolate Chip Cookies",
+    "short_description": "Classic chocolate chip cookies, perfect for any occasion.",
+    "ingredients": [
+      "200 g flour",
+      "100 g butter",
+      "150 g sugar",
+      "100 g chocolate chips",
+      "1 egg",
+      "1 tsp vanilla extract",
+      "1 tsp baking powder",
+      "Salt"
+    ],
+    "preparation_time": 30,
+    "calories": 300
+  }
+]
