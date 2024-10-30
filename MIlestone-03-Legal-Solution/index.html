@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Solution</title>
+  <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+  <!-- tailwind and daisy ui  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- tailwind custom color  -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          description: '#707070',
+          'primary-bg': '#B68C5A',
+        }
+      }
+    }
+  }
+</script>
+<!-- google font : eb garamond and poppins  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<!-- custom styles  -->
+<style>
+  .font-garamond{
+    font-family: 'EB Garamond', serif;
+  }
+  .font-poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+  .card2{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
+
+  }
+  
+  
+</style>
+</head>
+
+<body>
+  <header class="max-w-screen-xl mx-auto">
+    <!-- navbar section  -->
+<nav>
+  <div class="navbar bg-base-100 my-6">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-poppins">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Cases</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost normal-case text-2xl"><img class="" src="./images/logo2.png" alt=""></a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1 font-poppins">
+        <li><a>Home</a></li>
+        <li><a>Services <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></a></li>
+        <li><a>Cases <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></a></li>
+        <li><a>Blog <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></a></li>
+        <li><a>Contact Us <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn btn-primary bg-primary-bg font-poppins font-semibold normal-case text-white py-4 px-7">Free Consultation</a>
+    </div>
+  </div>
+</nav>
+<!-- banner section  -->
+<div class="banner">
+  <div class="hero min-h-[calc(100vh-150px)]" style="background-image: url(./images/banner.png);">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="">
+        <h1 class="mb-6 text-5xl lg:text-7xl font-bold ">
+          We Provide Effective
+          <br>
+          Legal Solutions</h1>
+        <p class="mb-8 font-poppins text-sm lg:text-base text-[#E7E7E7]">
+          There are many variations of passages of Lorem Ipsum available, but the majority 
+          <br>
+          have suffered alteration in some form, by injected humour.</p>
+        <div class="flex justify-center items-center gap-3">
+          <input type="search" placeholder="Search your services" class="w-[300px] p-3 rounded-lg">
+        <button class="btn normal-case bg-primary-bg font-poppins font-semibold ">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </header>
+  <main class="max-w-screen-xl mx-auto">
+    <!-- legal practice area section  -->
+<section class="my-24">
+<div class="text-center">
+  <h2 class="text-4xl font-garamond font-extrabold pb-6"> The Legal Practice Area</h2>
+  <p class="font-poppins text-description mb-16 px-3">
+    There are many variations of passages of Lorem Ipsum available, but the majority have
+    <br>
+     suffered alteration in some form, by injected humour.</p>
+</div>
+<!-- legal practice card container  -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-2">
+  <!-- first card  -->
+  <div class=" bg-base-100 border-r border-[#E7E7E7] pb-8  flex flex-col justify-center items-center ">
+    <div class="">
+      <figure><img src="./images/business.png" alt="Shoes" /></figure>
+    </div>
+    <div class="card-body text-center">
+      <h2 class=" pb-4 text-3xl font-garamond font-extrabold">Business Law</h2>
+      <p class="text-description pb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
+        </svg></button>
+      </div>
+    </div>
+  </div>
+  <!-- second card  -->
+  <div class=" border-r border-[#E7E7E7] pb-8  flex flex-col justify-center items-center card2">
+    <div class="">
+      <figure><img src="./images/criminal.png" alt="Shoes" /></figure>
+    </div>
+    <div class="card-body text-center">
+      <h2 class=" pb-4 text-3xl font-garamond font-extrabold">Criminal Law</h2>
+      <p class="text-description pb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
+        </svg></button>
+      </div>
+    </div>
+  </div>
+  <!-- third card  -->
+  <div class=" bg-base-100  pb-8  flex flex-col justify-center items-center ">
+    <div class="">
+      <figure><img src="./images/child.png" alt="Shoes" /></figure>
+    </div>
+    <div class="card-body text-center">
+      <h2 class=" pb-4 text-3xl font-garamond font-extrabold">Child Support</h2>
+      <p class="text-description pb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
+        </svg></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w-5/6 mx-auto">
+  <hr>
+</div>
+</div>
+
+<div class="">
+  <!-- legal practice card container  -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-2 ">
+  <!-- fourth card  -->
+  <div class=" bg-base-100 border-r border-[#E7E7E7] pb-8  flex flex-col justify-center items-center pt-12">
+    <div class="">
+      <figure><img src="./images/education.png" alt="Shoes" /></figure>
+    </div>
+    <div class="card-body text-center">
+      <h2 class=" pb-4 text-3xl font-garamond font-extrabold">Education Law</h2>
+      <p class="text-description pb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
+        </svg></button>
+      </div>
+    </div>
+  </div>
+  <!-- fifth card  -->
+  <div class=" bg-base-100 border-r border-[#E7E7E7] pb-8  flex flex-col justify-center items-center pt-12">
+    <div class="">
+      <figure><img src="./images/divorce.png" alt="Shoes" /></figure>
+    </div>
+    <div class="card-body text-center">
+      <h2 class=" pb-4 text-3xl font-garamond font-extrabold">Divorce Law</h2>
+      <p class="text-description pb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
+        </svg></button>
+      </div>
+    </div>
+  </div>
+  <!-- sixth card  -->
+  <div class=" bg-base-100  pb-8  flex flex-col justify-center items-center pt-12">
+    <div class="">
+      <figure><img src="./images/tax.png" alt="Shoes" /></figure>
+    </div>
+    <div class="card-body text-center">
+      <h2 class=" pb-4 text-3xl font-garamond font-extrabold">Tax Law</h2>
+      <p class="text-description pb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
+        </svg></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</section>
+<!-- client review section  -->
+<section>
+  <div class="text-center">
+    <h2 class="text-4xl font-garamond font-extrabold pb-6">What Our Client Say</h2>
+    <p class="font-poppins text-description mb-16 px-3">
+      There are many variations of passages of Lorem Ipsum available, but the majority have
+      <br>
+       suffered alteration in some form, by injected humour.</p>
+  </div>
+  <div>
+    <div
+  id="carouselExampleCaptions"
+  class="relative"
+  data-te-carousel-init
+  data-te-carousel-slide>
+  <!--Carousel indicators-->
+  <div
+    class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+    data-te-carousel-indicators>
+    <button
+      type="button"
+      data-te-target="#carouselExampleCaptions"
+      data-te-slide-to="0"
+      data-te-carousel-active
+      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+      aria-current="true"
+      aria-label="Slide 1"></button>
+    <button
+      type="button"
+      data-te-target="#carouselExampleCaptions"
+      data-te-slide-to="1"
+      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+      aria-label="Slide 2"></button>
+    <button
+      type="button"
+      data-te-target="#carouselExampleCaptions"
+      data-te-slide-to="2"
+      class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+      aria-label="Slide 3"></button>
+  </div>
+
+  <!--Carousel items-->
+  <div
+    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    <!--First item-->
+    <div
+      class="relative float-left -mr-[100%] w-full hero-overlay bg-opacity-90"
+      data-te-carousel-active
+      data-te-carousel-item
+      style="backface-visibility: hidden">
+      <img
+        src="./images/banner.png"
+        class="block w-full h-3/4 "
+        alt="..." />
+      <div
+        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+        <h5 class="text-2xl">First slide label</h5>
+        <p>
+          Some representative placeholder content for the first slide.
+        </p>
+      </div>
+    </div>
+    <!--Second item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item
+      style="backface-visibility: hidden">
+      <img
+        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
+        class="block w-full"
+        alt="..." />
+      <div
+        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+        <h5 class="text-2xl">Second slide label</h5>
+        <p>
+          Some representative placeholder content for the second slide.
+        </p>
+      </div>
+    </div>
+    <!--Third item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item
+      style="backface-visibility: hidden">
+      <img
+        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
+        class="block w-full"
+        alt="..." />
+      <div
+        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+        <h5 class="text-2xl">Third slide label</h5>
+        <p>
+          Some representative placeholder content for the third slide.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Carousel controls - prev item-->
+  <button
+    class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleCaptions"
+    data-te-slide="prev">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</span
+    >
+  </button>
+  <!--Carousel controls - next item-->
+  <button
+    class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleCaptions"
+    data-te-slide="next">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Next</span
+    >
+  </button>
+</div>
+  </div>
+</section>
+
+<!-- FAQ Section  -->
+<section class="py-16">
+  <div class="text-center">
+    <h2 class="text-4xl font-garamond font-extrabold pb-6">What Our Client Say</h2>
+    <p class="font-poppins text-description mb-16 px-3">
+      There are many variations of passages of Lorem Ipsum available, but the majority have
+      <br>
+       suffered alteration in some form, by injected humour.</p>
+  </div>
+  <div class="flex gap-7 flex-col md:flex-row ">
+    <!-- accordian  -->
+<div class="flex-1 space-y-7 p-5 ">
+  <div class="collapse collapse-plus bg-base-200">
+    <input type="radio" name="my-accordion-3" checked="checked" /> 
+    <div class="collapse-title text-3xl font-medium">
+      Are application fee waivers available?
+    </div>
+    <div class="collapse-content text-description font-poppins"> 
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+    </div>
+  </div>
+  <div class="collapse collapse-plus bg-base-200">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-2xl font-medium">
+      Are application fee waivers available?
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+  <div class="collapse collapse-plus bg-base-200">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-2xl font-medium">
+      Are application fee waivers available?
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+  <div class="collapse collapse-plus bg-base-200">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-2xl font-medium">
+      Are application fee waivers available?
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+</div>
+<div class="flex-1">
+<div class="">
+  <img class=" w-full h-[475px] " src="./images/faq.png" alt="">
+</div>
+</div>
+  </div>
+</section>
+<!-- contact section  -->
+<section class="py-16">
+  <div class="text-center">
+    <h2 class="text-4xl font-garamond font-extrabold pb-6">Contact With Us</h2>
+    <p class="font-poppins text-description mb-16 px-3">
+      There are many variations of passages of Lorem Ipsum available, but the majority have
+      <br>
+       suffered alteration in some form, by injected humour.</p>
+  </div>
+  <!-- card-container  -->
+<div class="flex gap-7 flex-col lg:flex-row items-center">
+  <div class="flex-1">
+   
+<div class="grid grid-cols-1 lg:grid-cols-2">
+   <!-- first card  -->
+  <div class=" bg-[#F3F3F3] p-10 border-r-2 border-[#CFCFC] border-b-2 border-[#CFCFC]">
+    <div class="card-body items-center text-center">
+      <div>
+        <img src="./images/location.png" alt="">
+      </div>
+      <h2 class="card-title text-2xl font-extrabold font-garamond">Address</h2>
+      <p class="text-description font-poppins">
+        A108 Adam Street,
+        <br>
+        New York, NY 535022</p>
+      
+    </div>
+  </div>
+  <!-- second card  -->
+  <div class=" bg-[#F3F3F3] p-10 border-r-2 border-[#CFCFC] border-b-2 border-[#CFCFC]">
+    <div class="card-body items-center text-center">
+      <div>
+        <img src="./images/call.png" alt="">
+      </div>
+      <h2 class="card-title text-2xl font-extrabold font-garamond">Call Us</h2>
+      <p class="text-description font-poppins">+88 01750 00 00 00
+        <br>
+        +88 01750 00 00 00</p>
+      
+    </div>
+  </div>
+  <!-- third card  -->
+  <div class=" bg-[#F3F3F3] p-10 border-r-2 border-[#CFCFC] border-b-2 border-[#CFCFC]">
+    <div class="card-body items-center text-center">
+      <div>
+        <img src="./images/email.png" alt="">
+      </div>
+      <h2 class="card-title text-2xl font-extrabold font-garamond">Email Us</h2>
+      <p class="text-description font-poppins">
+        info@gmail.com
+        <br>
+info@gmail.com
+      </p>
+      
+    </div>
+  </div>
+  <!-- fourth card  -->
+  <div class=" bg-[#F3F3F3] p-10 border-r-2 border-[#CFCFC] border-b-2 border-[#CFCFC]">
+    <div class="card-body items-center text-center">
+      <div>
+        <img src="./images/time.png" alt="">
+      </div>
+      <h2 class="card-title text-2xl font-extrabold font-garamond">Working Hours</h2>
+      <p class="text-description font-poppins">
+        Mon-Fri: 9AM to 5PM
+        <br>
+Sunday: 9AM to 1 PM
+      </p>
+      
+    </div>
+  </div>
+</div>
+</div>
+<div class="flex-1">
+  <div class="relative flex flex-col justify-center overflow-hidden">
+    <div class="w-full p-6 m-auto bg-white rounded-md shadow-md ">
+        
+        <form class="space-y-5">
+          <div>
+            <label class="label">
+            </label>
+            <input type="text" placeholder="Your Name" class="w-full input input-bordered bg-[#F3F3F3]" />
+        </div>
+            <div>
+            
+                <input type="email" placeholder="Email Address" class="w-full input input-bordered bg-[#F3F3F3]" />
+            </div>
+            <div>
+          
+              <input type="text" placeholder="Subject" class="w-full input input-bordered bg-[#F3F3F3]" />
+          </div>
+            <div>
+          
+              <input type="text" placeholder="Your Message" class="w-full input input-bordered bg-[#F3F3F3]" />
+          </div>
+          <div>
+            <textarea name="" class="w-full border border-gray-300 rounded-xl p-5 text-description bg-[#F3F3F3]" cols="6" rows="8">Your Message</textarea>
+          </div>
+            
+           
+            <div>
+                <button class="btn btn-block bg-primary-bg">Send Message</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+</section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
